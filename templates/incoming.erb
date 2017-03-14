@@ -5,5 +5,6 @@ TempDir: <%= @incoming_tmpdir %>
 Allow: <%= @incoming_allow %>
 <% end -%>
 Multiple: Yes
-Cleanup: on_deny on_error
+Cleanup: on_deny on_error unused_files
+Permit: unused_files
 
